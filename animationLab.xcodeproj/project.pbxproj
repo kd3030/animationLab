@@ -14,6 +14,7 @@
 		63093CE51D00845C00411DBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63093CE31D00845C00411DBD /* LaunchScreen.storyboard */; };
 		63093CF01D00845C00411DBD /* animationLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63093CEF1D00845C00411DBD /* animationLabTests.swift */; };
 		63093CFB1D00845C00411DBD /* animationLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63093CFA1D00845C00411DBD /* animationLabUITests.swift */; };
+		63093D0A1D00881800411DBD /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63093D091D00881800411DBD /* AnimationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		63093CF61D00845C00411DBD /* animationLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = animationLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63093CFA1D00845C00411DBD /* animationLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animationLabUITests.swift; sourceTree = "<group>"; };
 		63093CFC1D00845C00411DBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63093D091D00881800411DBD /* AnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		63093CD91D00845C00411DBD /* animationLab */ = {
 			isa = PBXGroup;
 			children = (
+				63093D081D00880A00411DBD /* controllers */,
 				63093CDA1D00845C00411DBD /* AppDelegate.swift */,
 				63093CDC1D00845C00411DBD /* ViewController.swift */,
 				63093CDE1D00845C00411DBD /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				63093CFC1D00845C00411DBD /* Info.plist */,
 			);
 			path = animationLabUITests;
+			sourceTree = "<group>";
+		};
+		63093D081D00880A00411DBD /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				63093D091D00881800411DBD /* AnimationViewController.swift */,
+			);
+			name = controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63093D0A1D00881800411DBD /* AnimationViewController.swift in Sources */,
 				63093CDD1D00845C00411DBD /* ViewController.swift in Sources */,
 				63093CDB1D00845C00411DBD /* AppDelegate.swift in Sources */,
 			);
